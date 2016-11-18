@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A48CD4013584DE599D8E717F /* Pods_Hungrily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E291022E314C237D0CFE30 /* Pods_Hungrily.framework */; };
+		C44481FF1DD26616001AD1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44481FE1DD26616001AD1EA /* AppDelegate.swift */; };
+		C44482041DD26616001AD1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44482021DD26616001AD1EA /* Main.storyboard */; };
+		C44482061DD26616001AD1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44482051DD26616001AD1EA /* Assets.xcassets */; };
+		C44482091DD26616001AD1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44482071DD26616001AD1EA /* LaunchScreen.storyboard */; };
+		C44482161DD295F1001AD1EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44482151DD295F1001AD1EA /* HomeViewController.swift */; };
+		C44482181DD295FC001AD1EA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44482171DD295FC001AD1EA /* SignUpViewController.swift */; };
+		C4C189B31DDA104500650CE1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4C189B21DDA104500650CE1 /* GoogleService-Info.plist */; };
+		C4C189B51DDA182500650CE1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189B41DDA182500650CE1 /* AuthService.swift */; };
+		C4C189B71DDA2D3000650CE1 /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189B61DDA2D3000650CE1 /* Chef.swift */; };
+		C4C189B91DDA2D3B00650CE1 /* Foodie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189B81DDA2D3B00650CE1 /* Foodie.swift */; };
+		C4C189BB1DDA471000650CE1 /* ChefHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189BA1DDA471000650CE1 /* ChefHomeViewController.swift */; };
+		C4C189BD1DDA472D00650CE1 /* FoodieHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189BC1DDA472D00650CE1 /* FoodieHomeViewController.swift */; };
+		C4C189BF1DDA5B4100650CE1 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189BE1DDA5B4100650CE1 /* RecipeCell.swift */; };
+		C4C189C11DDA5DAF00650CE1 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189C01DDA5DAF00650CE1 /* Recipe.swift */; };
+		C4C189C31DDA719400650CE1 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189C21DDA719400650CE1 /* OrdersViewController.swift */; };
+		C4C189C51DDA721900650CE1 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189C41DDA721900650CE1 /* OrderCell.swift */; };
+		C4C189C71DDA729E00650CE1 /* NewRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189C61DDA729E00650CE1 /* NewRecipeViewController.swift */; };
+		C4C189C91DDA73A500650CE1 /* ChefSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189C81DDA73A500650CE1 /* ChefSettingsViewController.swift */; };
+		C4C189CB1DDA754D00650CE1 /* ChefRecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189CA1DDA754D00650CE1 /* ChefRecipeDetailViewController.swift */; };
+		C4C189CD1DDA7A9800650CE1 /* FoodieRecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189CC1DDA7A9800650CE1 /* FoodieRecipeDetailViewController.swift */; };
+		C4C189CF1DDA7C6C00650CE1 /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189CE1DDA7C6C00650CE1 /* OrderDetailViewController.swift */; };
+		C4C189D11DDA7D2E00650CE1 /* ChefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189D01DDA7D2E00650CE1 /* ChefsViewController.swift */; };
+		C4C189D31DDA7D4200650CE1 /* FoodieSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189D21DDA7D4200650CE1 /* FoodieSettingsViewController.swift */; };
+		C4C189D51DDA7EE600650CE1 /* ChefCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189D41DDA7EE600650CE1 /* ChefCell.swift */; };
+		C4C189D71DDA7FFE00650CE1 /* ChefDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189D61DDA7FFE00650CE1 /* ChefDetailViewController.swift */; };
+		C4C189D91DDA8A0F00650CE1 /* ChefRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189D81DDA8A0F00650CE1 /* ChefRecipesViewController.swift */; };
+		C4C189DB1DDA8AB800650CE1 /* FoodieChefRecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189DA1DDA8AB800650CE1 /* FoodieChefRecipeDetailViewController.swift */; };
+		C4C189DD1DDA8C4300650CE1 /* FoodieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189DC1DDA8C4300650CE1 /* FoodieDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3175F2AC69B7141AB8085C18 /* Pods-Hungrily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hungrily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hungrily/Pods-Hungrily.debug.xcconfig"; sourceTree = "<group>"; };
+		358F8A46BDA88D1D921E9397 /* Pods-Hungrily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hungrily.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hungrily/Pods-Hungrily.release.xcconfig"; sourceTree = "<group>"; };
+		C3E291022E314C237D0CFE30 /* Pods_Hungrily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hungrily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44481FB1DD26616001AD1EA /* Hungrily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hungrily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44481FE1DD26616001AD1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C44482031DD26616001AD1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C44482051DD26616001AD1EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C44482081DD26616001AD1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C444820A1DD26616001AD1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44482151DD295F1001AD1EA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C44482171DD295FC001AD1EA /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C4C189B21DDA104500650CE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4C189B41DDA182500650CE1 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		C4C189B61DDA2D3000650CE1 /* Chef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
+		C4C189B81DDA2D3B00650CE1 /* Foodie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foodie.swift; sourceTree = "<group>"; };
+		C4C189BA1DDA471000650CE1 /* ChefHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefHomeViewController.swift; sourceTree = "<group>"; };
+		C4C189BC1DDA472D00650CE1 /* FoodieHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodieHomeViewController.swift; sourceTree = "<group>"; };
+		C4C189BE1DDA5B4100650CE1 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		C4C189C01DDA5DAF00650CE1 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		C4C189C21DDA719400650CE1 /* OrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		C4C189C41DDA721900650CE1 /* OrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		C4C189C61DDA729E00650CE1 /* NewRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRecipeViewController.swift; sourceTree = "<group>"; };
+		C4C189C81DDA73A500650CE1 /* ChefSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefSettingsViewController.swift; sourceTree = "<group>"; };
+		C4C189CA1DDA754D00650CE1 /* ChefRecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefRecipeDetailViewController.swift; sourceTree = "<group>"; };
+		C4C189CC1DDA7A9800650CE1 /* FoodieRecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodieRecipeDetailViewController.swift; sourceTree = "<group>"; };
+		C4C189CE1DDA7C6C00650CE1 /* OrderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		C4C189D01DDA7D2E00650CE1 /* ChefsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefsViewController.swift; sourceTree = "<group>"; };
+		C4C189D21DDA7D4200650CE1 /* FoodieSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodieSettingsViewController.swift; sourceTree = "<group>"; };
+		C4C189D41DDA7EE600650CE1 /* ChefCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefCell.swift; sourceTree = "<group>"; };
+		C4C189D61DDA7FFE00650CE1 /* ChefDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefDetailViewController.swift; sourceTree = "<group>"; };
+		C4C189D81DDA8A0F00650CE1 /* ChefRecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefRecipesViewController.swift; sourceTree = "<group>"; };
+		C4C189DA1DDA8AB800650CE1 /* FoodieChefRecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodieChefRecipeDetailViewController.swift; sourceTree = "<group>"; };
+		C4C189DC1DDA8C4300650CE1 /* FoodieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodieDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44481F81DD26616001AD1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48CD4013584DE599D8E717F /* Pods_Hungrily.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9C20F206ACEF157066DD48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E291022E314C237D0CFE30 /* Pods_Hungrily.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C44481F21DD26616001AD1EA = {
+			isa = PBXGroup;
+			children = (
+				C44481FD1DD26616001AD1EA /* Hungrily */,
+				C44481FC1DD26616001AD1EA /* Products */,
+				E3AEC52B955AF12316B51321 /* Pods */,
+				1B9C20F206ACEF157066DD48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C44481FC1DD26616001AD1EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44481FB1DD26616001AD1EA /* Hungrily.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44481FD1DD26616001AD1EA /* Hungrily */ = {
+			isa = PBXGroup;
+			children = (
+				C44482141DD295BC001AD1EA /* Model */,
+				C44482131DD295B3001AD1EA /* View Cells */,
+				C44482121DD295A7001AD1EA /* View Controllers */,
+				C44482101DD26656001AD1EA /* Screens */,
+				C44482111DD2665E001AD1EA /* Others */,
+			);
+			path = Hungrily;
+			sourceTree = "<group>";
+		};
+		C44482101DD26656001AD1EA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C44482021DD26616001AD1EA /* Main.storyboard */,
+				C44482071DD26616001AD1EA /* LaunchScreen.storyboard */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		C44482111DD2665E001AD1EA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C44481FE1DD26616001AD1EA /* AppDelegate.swift */,
+				C44482051DD26616001AD1EA /* Assets.xcassets */,
+				C4C189B21DDA104500650CE1 /* GoogleService-Info.plist */,
+				C444820A1DD26616001AD1EA /* Info.plist */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		C44482121DD295A7001AD1EA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4C189E11DDA9ECD00650CE1 /* Login */,
+				C4C189E01DDA9EB000650CE1 /* Chef */,
+				C4C189DF1DDA9BDE00650CE1 /* Foodie */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C44482131DD295B3001AD1EA /* View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C4C189BE1DDA5B4100650CE1 /* RecipeCell.swift */,
+				C4C189C41DDA721900650CE1 /* OrderCell.swift */,
+				C4C189D41DDA7EE600650CE1 /* ChefCell.swift */,
+			);
+			name = "View Cells";
+			sourceTree = "<group>";
+		};
+		C44482141DD295BC001AD1EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4C189B41DDA182500650CE1 /* AuthService.swift */,
+				C4C189B61DDA2D3000650CE1 /* Chef.swift */,
+				C4C189B81DDA2D3B00650CE1 /* Foodie.swift */,
+				C4C189C01DDA5DAF00650CE1 /* Recipe.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C4C189DF1DDA9BDE00650CE1 /* Foodie */ = {
+			isa = PBXGroup;
+			children = (
+				C4C189BC1DDA472D00650CE1 /* FoodieHomeViewController.swift */,
+				C4C189D21DDA7D4200650CE1 /* FoodieSettingsViewController.swift */,
+				C4C189CC1DDA7A9800650CE1 /* FoodieRecipeDetailViewController.swift */,
+				C4C189D01DDA7D2E00650CE1 /* ChefsViewController.swift */,
+				C4C189D61DDA7FFE00650CE1 /* ChefDetailViewController.swift */,
+				C4C189D81DDA8A0F00650CE1 /* ChefRecipesViewController.swift */,
+				C4C189DA1DDA8AB800650CE1 /* FoodieChefRecipeDetailViewController.swift */,
+			);
+			name = Foodie;
+			sourceTree = "<group>";
+		};
+		C4C189E01DDA9EB000650CE1 /* Chef */ = {
+			isa = PBXGroup;
+			children = (
+				C4C189BA1DDA471000650CE1 /* ChefHomeViewController.swift */,
+				C4C189C81DDA73A500650CE1 /* ChefSettingsViewController.swift */,
+				C4C189CA1DDA754D00650CE1 /* ChefRecipeDetailViewController.swift */,
+				C4C189C61DDA729E00650CE1 /* NewRecipeViewController.swift */,
+				C4C189C21DDA719400650CE1 /* OrdersViewController.swift */,
+				C4C189CE1DDA7C6C00650CE1 /* OrderDetailViewController.swift */,
+				C4C189DC1DDA8C4300650CE1 /* FoodieDetailViewController.swift */,
+			);
+			name = Chef;
+			sourceTree = "<group>";
+		};
+		C4C189E11DDA9ECD00650CE1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C44482151DD295F1001AD1EA /* HomeViewController.swift */,
+				C44482171DD295FC001AD1EA /* SignUpViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		E3AEC52B955AF12316B51321 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3175F2AC69B7141AB8085C18 /* Pods-Hungrily.debug.xcconfig */,
+				358F8A46BDA88D1D921E9397 /* Pods-Hungrily.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44481FA1DD26616001AD1EA /* Hungrily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C444820D1DD26616001AD1EA /* Build configuration list for PBXNativeTarget "Hungrily" */;
+			buildPhases = (
+				2F3D0938B324B236A38D4AC3 /* [CP] Check Pods Manifest.lock */,
+				C44481F71DD26616001AD1EA /* Sources */,
+				C44481F81DD26616001AD1EA /* Frameworks */,
+				C44481F91DD26616001AD1EA /* Resources */,
+				80E5A5BB98609BA3260E69FB /* [CP] Embed Pods Frameworks */,
+				478B48D005A75C3086BD041D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hungrily;
+			productName = Hungrily;
+			productReference = C44481FB1DD26616001AD1EA /* Hungrily.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44481F31DD26616001AD1EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Akash Ungarala";
+				TargetAttributes = {
+					C44481FA1DD26616001AD1EA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C44481F61DD26616001AD1EA /* Build configuration list for PBXProject "Hungrily" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44481F21DD26616001AD1EA;
+			productRefGroup = C44481FC1DD26616001AD1EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44481FA1DD26616001AD1EA /* Hungrily */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44481F91DD26616001AD1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44482091DD26616001AD1EA /* LaunchScreen.storyboard in Resources */,
+				C4C189B31DDA104500650CE1 /* GoogleService-Info.plist in Resources */,
+				C44482061DD26616001AD1EA /* Assets.xcassets in Resources */,
+				C44482041DD26616001AD1EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F3D0938B324B236A38D4AC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		478B48D005A75C3086BD041D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hungrily/Pods-Hungrily-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80E5A5BB98609BA3260E69FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hungrily/Pods-Hungrily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44481F71DD26616001AD1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C189D91DDA8A0F00650CE1 /* ChefRecipesViewController.swift in Sources */,
+				C4C189D11DDA7D2E00650CE1 /* ChefsViewController.swift in Sources */,
+				C4C189C71DDA729E00650CE1 /* NewRecipeViewController.swift in Sources */,
+				C4C189CD1DDA7A9800650CE1 /* FoodieRecipeDetailViewController.swift in Sources */,
+				C44482181DD295FC001AD1EA /* SignUpViewController.swift in Sources */,
+				C4C189B91DDA2D3B00650CE1 /* Foodie.swift in Sources */,
+				C44481FF1DD26616001AD1EA /* AppDelegate.swift in Sources */,
+				C4C189C31DDA719400650CE1 /* OrdersViewController.swift in Sources */,
+				C4C189BF1DDA5B4100650CE1 /* RecipeCell.swift in Sources */,
+				C44482161DD295F1001AD1EA /* HomeViewController.swift in Sources */,
+				C4C189BB1DDA471000650CE1 /* ChefHomeViewController.swift in Sources */,
+				C4C189CF1DDA7C6C00650CE1 /* OrderDetailViewController.swift in Sources */,
+				C4C189B71DDA2D3000650CE1 /* Chef.swift in Sources */,
+				C4C189C91DDA73A500650CE1 /* ChefSettingsViewController.swift in Sources */,
+				C4C189DD1DDA8C4300650CE1 /* FoodieDetailViewController.swift in Sources */,
+				C4C189DB1DDA8AB800650CE1 /* FoodieChefRecipeDetailViewController.swift in Sources */,
+				C4C189D71DDA7FFE00650CE1 /* ChefDetailViewController.swift in Sources */,
+				C4C189B51DDA182500650CE1 /* AuthService.swift in Sources */,
+				C4C189D31DDA7D4200650CE1 /* FoodieSettingsViewController.swift in Sources */,
+				C4C189D51DDA7EE600650CE1 /* ChefCell.swift in Sources */,
+				C4C189BD1DDA472D00650CE1 /* FoodieHomeViewController.swift in Sources */,
+				C4C189C51DDA721900650CE1 /* OrderCell.swift in Sources */,
+				C4C189CB1DDA754D00650CE1 /* ChefRecipeDetailViewController.swift in Sources */,
+				C4C189C11DDA5DAF00650CE1 /* Recipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C44482021DD26616001AD1EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44482031DD26616001AD1EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C44482071DD26616001AD1EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44482081DD26616001AD1EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C444820B1DD26616001AD1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C444820C1DD26616001AD1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C444820E1DD26616001AD1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3175F2AC69B7141AB8085C18 /* Pods-Hungrily.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hungrily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akashungarala.Hungrily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C444820F1DD26616001AD1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358F8A46BDA88D1D921E9397 /* Pods-Hungrily.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hungrily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akashungarala.Hungrily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44481F61DD26616001AD1EA /* Build configuration list for PBXProject "Hungrily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C444820B1DD26616001AD1EA /* Debug */,
+				C444820C1DD26616001AD1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C444820D1DD26616001AD1EA /* Build configuration list for PBXNativeTarget "Hungrily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C444820E1DD26616001AD1EA /* Debug */,
+				C444820F1DD26616001AD1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44481F31DD26616001AD1EA /* Project object */;
+}
