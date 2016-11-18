@@ -1,0 +1,2 @@
+# Hungrily
+Hungrily is an iOS mobile application that can be used by mainly two categories. One is a chef who can share the details of their recipes that they are good in making and their availability timings during the week. The other is a foodie, who can browse the list of chefs and recipes based on their interest and location. The foodie can order for the selected recipe for the selected time slot of the chef and pays for it. The chef gets the order request and delivers the selected recipe on time to the customer.
