@@ -109,8 +109,8 @@ class ChefHomeViewController: UIViewController, UITableViewDataSource, UITableVi
                 let recipeObj = recipeId as! FIRDataSnapshot
                 let id = "\(recipeObj.key)"
                 self.dataBaseRef.child("recipes").child(id).observe(.value, with: { (recipeSnapshot) in
-                    print("Recipes: \(self.dataBaseRef.child("recipes").child(id))")
                     results.append(Recipe(snapshot: recipeSnapshot))
+                    print("Recipe: \(Recipe(snapshot: recipeSnapshot))")
                     self.recipes = results.sorted(by: { (u1, u2) -> Bool in
                         u1.title < u2.title
                     })
@@ -129,7 +129,8 @@ class ChefHomeViewController: UIViewController, UITableViewDataSource, UITableVi
             let destination = segue.destination as! NewRecipeViewController
             destination.chef = self.chef
         } else if segue.identifier == "ChefRecipeDetailSegue" {
-            let destination = segue.destination as! ChefRecipeDetailViewController
+            let destination = segue.destination as! RecipeDetailViewController
+            destination.sender = "Chef"
             destination.recipe = recipes![(self.tableView.indexPathForSelectedRow?.row)!]
         }
     }

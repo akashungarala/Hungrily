@@ -26,16 +26,15 @@
 		C4C189C51DDA721900650CE1 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189C41DDA721900650CE1 /* OrderCell.swift */; };
 		C4C189C71DDA729E00650CE1 /* NewRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189C61DDA729E00650CE1 /* NewRecipeViewController.swift */; };
 		C4C189C91DDA73A500650CE1 /* ChefSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189C81DDA73A500650CE1 /* ChefSettingsViewController.swift */; };
-		C4C189CB1DDA754D00650CE1 /* ChefRecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189CA1DDA754D00650CE1 /* ChefRecipeDetailViewController.swift */; };
-		C4C189CD1DDA7A9800650CE1 /* FoodieRecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189CC1DDA7A9800650CE1 /* FoodieRecipeDetailViewController.swift */; };
+		C4C189CB1DDA754D00650CE1 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189CA1DDA754D00650CE1 /* RecipeDetailViewController.swift */; };
 		C4C189CF1DDA7C6C00650CE1 /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189CE1DDA7C6C00650CE1 /* OrderDetailViewController.swift */; };
 		C4C189D11DDA7D2E00650CE1 /* ChefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189D01DDA7D2E00650CE1 /* ChefsViewController.swift */; };
 		C4C189D31DDA7D4200650CE1 /* FoodieSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189D21DDA7D4200650CE1 /* FoodieSettingsViewController.swift */; };
 		C4C189D51DDA7EE600650CE1 /* ChefCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189D41DDA7EE600650CE1 /* ChefCell.swift */; };
 		C4C189D71DDA7FFE00650CE1 /* ChefDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189D61DDA7FFE00650CE1 /* ChefDetailViewController.swift */; };
 		C4C189D91DDA8A0F00650CE1 /* ChefRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189D81DDA8A0F00650CE1 /* ChefRecipesViewController.swift */; };
-		C4C189DB1DDA8AB800650CE1 /* FoodieChefRecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189DA1DDA8AB800650CE1 /* FoodieChefRecipeDetailViewController.swift */; };
 		C4C189DD1DDA8C4300650CE1 /* FoodieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C189DC1DDA8C4300650CE1 /* FoodieDetailViewController.swift */; };
+		C4C18A091DE007B300650CE1 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C18A081DE007B300650CE1 /* OrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,16 +61,15 @@
 		C4C189C41DDA721900650CE1 /* OrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
 		C4C189C61DDA729E00650CE1 /* NewRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRecipeViewController.swift; sourceTree = "<group>"; };
 		C4C189C81DDA73A500650CE1 /* ChefSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefSettingsViewController.swift; sourceTree = "<group>"; };
-		C4C189CA1DDA754D00650CE1 /* ChefRecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefRecipeDetailViewController.swift; sourceTree = "<group>"; };
-		C4C189CC1DDA7A9800650CE1 /* FoodieRecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodieRecipeDetailViewController.swift; sourceTree = "<group>"; };
+		C4C189CA1DDA754D00650CE1 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		C4C189CE1DDA7C6C00650CE1 /* OrderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
 		C4C189D01DDA7D2E00650CE1 /* ChefsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefsViewController.swift; sourceTree = "<group>"; };
 		C4C189D21DDA7D4200650CE1 /* FoodieSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodieSettingsViewController.swift; sourceTree = "<group>"; };
 		C4C189D41DDA7EE600650CE1 /* ChefCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefCell.swift; sourceTree = "<group>"; };
 		C4C189D61DDA7FFE00650CE1 /* ChefDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefDetailViewController.swift; sourceTree = "<group>"; };
 		C4C189D81DDA8A0F00650CE1 /* ChefRecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChefRecipesViewController.swift; sourceTree = "<group>"; };
-		C4C189DA1DDA8AB800650CE1 /* FoodieChefRecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodieChefRecipeDetailViewController.swift; sourceTree = "<group>"; };
 		C4C189DC1DDA8C4300650CE1 /* FoodieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodieDetailViewController.swift; sourceTree = "<group>"; };
+		C4C18A081DE007B300650CE1 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				C4C189E11DDA9ECD00650CE1 /* Login */,
+				C4C18A061DDFF2D000650CE1 /* Recipe */,
+				C4C18A071DDFF31700650CE1 /* Order */,
 				C4C189E01DDA9EB000650CE1 /* Chef */,
 				C4C189DF1DDA9BDE00650CE1 /* Foodie */,
 			);
@@ -180,11 +180,7 @@
 			children = (
 				C4C189BC1DDA472D00650CE1 /* FoodieHomeViewController.swift */,
 				C4C189D21DDA7D4200650CE1 /* FoodieSettingsViewController.swift */,
-				C4C189CC1DDA7A9800650CE1 /* FoodieRecipeDetailViewController.swift */,
-				C4C189D01DDA7D2E00650CE1 /* ChefsViewController.swift */,
-				C4C189D61DDA7FFE00650CE1 /* ChefDetailViewController.swift */,
-				C4C189D81DDA8A0F00650CE1 /* ChefRecipesViewController.swift */,
-				C4C189DA1DDA8AB800650CE1 /* FoodieChefRecipeDetailViewController.swift */,
+				C4C189DC1DDA8C4300650CE1 /* FoodieDetailViewController.swift */,
 			);
 			name = Foodie;
 			sourceTree = "<group>";
@@ -194,11 +190,9 @@
 			children = (
 				C4C189BA1DDA471000650CE1 /* ChefHomeViewController.swift */,
 				C4C189C81DDA73A500650CE1 /* ChefSettingsViewController.swift */,
-				C4C189CA1DDA754D00650CE1 /* ChefRecipeDetailViewController.swift */,
-				C4C189C61DDA729E00650CE1 /* NewRecipeViewController.swift */,
-				C4C189C21DDA719400650CE1 /* OrdersViewController.swift */,
-				C4C189CE1DDA7C6C00650CE1 /* OrderDetailViewController.swift */,
-				C4C189DC1DDA8C4300650CE1 /* FoodieDetailViewController.swift */,
+				C4C189D01DDA7D2E00650CE1 /* ChefsViewController.swift */,
+				C4C189D61DDA7FFE00650CE1 /* ChefDetailViewController.swift */,
+				C4C189D81DDA8A0F00650CE1 /* ChefRecipesViewController.swift */,
 			);
 			name = Chef;
 			sourceTree = "<group>";
@@ -210,6 +204,25 @@
 				C44482171DD295FC001AD1EA /* SignUpViewController.swift */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		C4C18A061DDFF2D000650CE1 /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				C4C189CA1DDA754D00650CE1 /* RecipeDetailViewController.swift */,
+				C4C189C61DDA729E00650CE1 /* NewRecipeViewController.swift */,
+			);
+			name = Recipe;
+			sourceTree = "<group>";
+		};
+		C4C18A071DDFF31700650CE1 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				C4C189C21DDA719400650CE1 /* OrdersViewController.swift */,
+				C4C189CE1DDA7C6C00650CE1 /* OrderDetailViewController.swift */,
+				C4C18A081DE007B300650CE1 /* OrderViewController.swift */,
+			);
+			name = Order;
 			sourceTree = "<group>";
 		};
 		E3AEC52B955AF12316B51321 /* Pods */ = {
@@ -348,7 +361,6 @@
 				C4C189D91DDA8A0F00650CE1 /* ChefRecipesViewController.swift in Sources */,
 				C4C189D11DDA7D2E00650CE1 /* ChefsViewController.swift in Sources */,
 				C4C189C71DDA729E00650CE1 /* NewRecipeViewController.swift in Sources */,
-				C4C189CD1DDA7A9800650CE1 /* FoodieRecipeDetailViewController.swift in Sources */,
 				C44482181DD295FC001AD1EA /* SignUpViewController.swift in Sources */,
 				C4C189B91DDA2D3B00650CE1 /* Foodie.swift in Sources */,
 				C44481FF1DD26616001AD1EA /* AppDelegate.swift in Sources */,
@@ -360,14 +372,14 @@
 				C4C189B71DDA2D3000650CE1 /* Chef.swift in Sources */,
 				C4C189C91DDA73A500650CE1 /* ChefSettingsViewController.swift in Sources */,
 				C4C189DD1DDA8C4300650CE1 /* FoodieDetailViewController.swift in Sources */,
-				C4C189DB1DDA8AB800650CE1 /* FoodieChefRecipeDetailViewController.swift in Sources */,
 				C4C189D71DDA7FFE00650CE1 /* ChefDetailViewController.swift in Sources */,
 				C4C189B51DDA182500650CE1 /* AuthService.swift in Sources */,
 				C4C189D31DDA7D4200650CE1 /* FoodieSettingsViewController.swift in Sources */,
 				C4C189D51DDA7EE600650CE1 /* ChefCell.swift in Sources */,
+				C4C18A091DE007B300650CE1 /* OrderViewController.swift in Sources */,
 				C4C189BD1DDA472D00650CE1 /* FoodieHomeViewController.swift in Sources */,
 				C4C189C51DDA721900650CE1 /* OrderCell.swift in Sources */,
-				C4C189CB1DDA754D00650CE1 /* ChefRecipeDetailViewController.swift in Sources */,
+				C4C189CB1DDA754D00650CE1 /* RecipeDetailViewController.swift in Sources */,
 				C4C189C11DDA5DAF00650CE1 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

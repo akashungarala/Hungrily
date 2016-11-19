@@ -12,8 +12,8 @@ import FirebaseDatabase
 
 struct Foodie {
     
-    var uid: String!
     var ref: FIRDatabaseReference?
+    var uid: String!
     var key: String?
     var category: String!
     var photoURL: String!
@@ -23,9 +23,9 @@ struct Foodie {
     var biography: String?
     
     init (snapshot: FIRDataSnapshot) {
-        uid = (snapshot.value! as! NSDictionary)["uid"] as! String
         ref = snapshot.ref
         key = snapshot.key
+        uid = (snapshot.value! as! NSDictionary)["uid"] as! String
         category = (snapshot.value! as! NSDictionary)["category"] as! String
         photoURL = (snapshot.value! as! NSDictionary)["photoURL"] as! String
         firstName = (snapshot.value! as! NSDictionary)["firstName"] as! String

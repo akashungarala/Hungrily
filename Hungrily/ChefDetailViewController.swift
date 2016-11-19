@@ -55,6 +55,11 @@ class ChefDetailViewController: UIViewController {
     
     @IBAction func backToChefDetail(storyboard: UIStoryboardSegue) {}
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {}
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ChefRecipesSegue" {
+            let destination = segue.destination as! ChefRecipesViewController
+            destination.chef = chef
+        }
+    }
 
 }

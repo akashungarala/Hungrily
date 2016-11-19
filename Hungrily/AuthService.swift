@@ -49,8 +49,7 @@ struct AuthService {
     // 2 - Save the User Profile Picture to Firebase Storage, Assign Photo URL to the new user
     
     private func setChefInfo(user: FIRUser!, pictureData: NSData!, firstName: String, lastName: String, password: String, biography: String, address: String, country: String, availability: String) {
-        let imagePath = "profileImage\(user.uid)/userPic.jpg"
-        let imageRef = storageRef.child(imagePath)
+        let imageRef = storageRef.child("Users").child("\(user.displayName) (\(user.uid))")
         let metaData = FIRStorageMetadata()
         metaData.contentType = "image/jpeg"
         imageRef.put(pictureData as Data, metadata: metaData) { (newMetaData, error) in
@@ -76,8 +75,7 @@ struct AuthService {
     }
     
     private func setFoodieInfo(user: FIRUser!, pictureData: NSData!, firstName: String, lastName: String, password: String, biography: String) {
-        let imagePath = "profileImage\(user.uid)/userPic.jpg"
-        let imageRef = storageRef.child(imagePath)
+        let imageRef = storageRef.child("Users").child("\(firstName) \(lastName) (\(user.uid))")
         let metaData = FIRStorageMetadata()
         metaData.contentType = "image/jpeg"
         imageRef.put(pictureData as Data, metadata: metaData) { (newMetaData, error) in

@@ -38,6 +38,12 @@ class NewRecipeViewController: UIViewController {
             category.delegate = self
         }
     }
+    @IBOutlet weak var price: UITextField! {
+        didSet {
+            price.layer.cornerRadius = 5
+            price.delegate = self
+        }
+    }
     @IBOutlet weak var ingredients: UITextField! {
         didSet {
             ingredients.layer.cornerRadius = 5
@@ -68,6 +74,7 @@ class NewRecipeViewController: UIViewController {
         let title = recipeTitle.text!
         let recipeCuisine = cuisine.text!
         let recipeCategory = category.text!
+        let recipePrice = price.text!
         let recipeIngredients = ingredients.text!
         let description = recipeDescription.text!
         let pictureData = UIImageJPEGRepresentation(self.photo.image!, 0.70)
@@ -86,15 +93,18 @@ class NewRecipeViewController: UIViewController {
         } else if description.isEmpty {
             self.view.endEditing(true)
             showMessage(message: "Description is a mandatory field")
+        } else if recipePrice.isEmpty {
+            self.view.endEditing(true)
+            showMessage(message: "Price is a mandatory field")
         } else {
             self.view.endEditing(true)
-            createRecipe(pictureData: pictureData as NSData!, title: title, cuisine: recipeCuisine, category: recipeCategory, ingredients: recipeIngredients, description: description)
+            createRecipe(pictureData: pictureData as NSData!, title: title, cuisine: recipeCuisine, category: recipeCategory, ingredients: recipeIngredients, description: description, price: recipePrice)
         }
     }
     
-    func createRecipe(pictureData: NSData!, title: String, cuisine: String, category: String, ingredients: String, description: String) {
+    func createRecipe(pictureData: NSData!, title: String, cuisine: String, category: String, ingredients: String, description: String, price: String) {
         let id = self.dataBaseRef.child("recipes").childByAutoId().key
-        let imageRef = storageRef.child("recipeImage\(id)/recipePic.jpg")
+        let imageRef = storageRef.child("Recipes").child("\(title) (\(id))")
         let metaData = FIRStorageMetadata()
         metaData.contentType = "image/jpeg"
         imageRef.put(pictureData as Data, metadata: metaData) { (newMetaData, error) in
@@ -106,7 +116,7 @@ class NewRecipeViewController: UIViewController {
             } else {
                 
             }
-            let recipeInfo = ["title": title, "cuisine": cuisine, "category": category, "ingredients": ingredients, "description": description, "uid": id, "photoURL": photoURL, "chefId": self.chef.uid]
+            let recipeInfo = ["title": title, "cuisine": cuisine, "category": category, "ingredients": ingredients, "description": description, "uid": id, "photoURL": photoURL, "chefId": self.chef.uid, "price": price]
             let recipeRef = self.dataBaseRef.child("recipes").child(id)
             recipeRef.setValue(recipeInfo) { (error, ref) in
                 if error == nil {
