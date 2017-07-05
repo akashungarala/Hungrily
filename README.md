@@ -1,8 +1,6 @@
 # Hungrily
 **Hungrily** is an iOS mobile application that can be used by mainly two categories. One is a chef who can share the details of their recipes that they are good in making and their availability timings during the week. The other is a foodie, who can browse the list of chefs and recipes based on their interest and location. The foodie can order for the selected recipe for the selected time slot of the chef and pays for it. The chef gets the order request and delivers the selected recipe on time to the customer.
 
-Developers: **Akash Ungarala, Ian Campelo**
-
 ## Platform
 
 iOS, Swift, Objective-C, Cocoa Pods, Firebase
@@ -17,8 +15,8 @@ iOS, Swift, Objective-C, Cocoa Pods, Firebase
 - [x] Milestone 6: Foodie can see the details of a selected chef
 - [x] Milestone 7: Chef can browse through their list of Recipes
 - [x] Milestone 8: Chef can see the details of a selected recipe
-- [ ] Milestone 9: Foodie can browse through the list of Recipes
-- [ ] Milestone 10: Foodie can see the details of a selected recipe
+- [x] Milestone 9: Foodie can browse through the list of Recipes
+- [x] Milestone 10: Foodie can see the details of a selected recipe
 
 The following **additional** features are implemented:
 
